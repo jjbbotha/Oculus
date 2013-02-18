@@ -1,0 +1,1 @@
+/Users/johannbotha/Documents/College/2012/Fall/SD/Open_Cv_practice/face_detect/CMakeFiles/FACE_DETECT.dir

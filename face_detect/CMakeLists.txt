@@ -1,0 +1,6 @@
+project( FACE_DETECT )
+find_package( OpenCV REQUIRED )
+add_executable( FACE_DETECT FACE_DETECT )
+target_link_libraries( FACE_DETECT ${OpenCV_LIBS} )
+SET(CURL_CXX_FLAGS "-lcurl" CACHE STRING "Flags to use in directory Foo")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${CURL_CXX_FLAGS}")
